@@ -1,0 +1,10 @@
+t=int(raw_input())
+for i in range(t):
+	temp=0.0
+	N=int(raw_input())
+	pi=map(int,raw_input().split(' '))
+	for x in pi:
+		x=x/(N*100.0)
+		temp=temp+x
+	print format(temp*100,'.8f')
+	
